@@ -17,6 +17,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'therubyracer', platforms: :ruby
 
 gem 'figaro'
+gem 'faye-websocket'
+gem 'slack-ruby-bot'
 
 group :development, :test do
   gem 'pry-rails'
